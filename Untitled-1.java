@@ -1,23 +1,14 @@
-import java.util.ArrayList; //import ArrayList class
  class Vowel {
 
     public static void main(String args[])
     {
-       // System.out.println("hi");
     
-    String input = new String("hello");
+    String input = new String("hElloO");
+    String inputL = input.toLowerCase();
     int counter = 0;
 
-    ArrayList<Character> vowels = new ArrayList<Character>();
-    vowels.add('a');
-    vowels.add('e');
-    vowels.add('i');
-    vowels.add('o');
-    vowels.add('u');
-
-
 for(int i=0; i<input.length(); i++){
-    if(vowels.contains(input.charAt(i))){
+    if(inputL.charAt(i)=='a' || inputL.charAt(i)=='e' || inputL.charAt(i)=='i' || inputL.charAt(i)=='o' || inputL.charAt(i)=='u'){
         counter++;
     }
 }
