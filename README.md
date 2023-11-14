@@ -1,6 +1,6 @@
 # vowel-counter
 # A vowel counter in Java
-To use this program to count the vowels in a String, please first clone this repository. 
+To use this program to count the vowels in a String, please first fork this repository. 
 
 1. In the file "vowelCounter.java" you will find the String variable named "str" in line 4, which is the input String. You may change this String to your own input String.
 2. Then you can run the main function in the IDE of your choice (we tested it on vs code).
